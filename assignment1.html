@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="pixel" content="pixel exercise">
+		<title>PIXEL</title>
+		<style type="text/css">
+			body{
+				height:800px;
+                background: -webkit-linear-gradient(#45b0f2, #f46c55);
+                margin: 0;
+                padding: 0;
+			}
+
+			.t1{
+				position: absolute;
+				top: 20px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2{
+				position: absolute;
+				top:20px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3{
+				position: absolute;
+				top:20px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4{
+				position: absolute;
+				top:20px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5{
+				position: absolute;
+				top:20px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6{
+				position: absolute;
+				top:20px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7{
+				position: absolute;
+				top:20px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8{
+				position: absolute;
+				top:20px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9{
+				position: absolute;
+				top:20px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10{
+				position: absolute;
+				top:20px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11{
+				position: absolute;
+				top:20px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12{
+				position: absolute;
+				top:20px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13{
+				position: absolute;
+				top:20px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14{
+				position: absolute;
+				top:20px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+			.t1a{
+				position: absolute;
+				top: 120px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2a{
+				position: absolute;
+				top:120px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3a{
+				position: absolute;
+				top:120px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4a{
+				position: absolute;
+				top:120px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5a{
+				position: absolute;
+				top:120px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6a{
+				position: absolute;
+				top:120px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7a{
+				position: absolute;
+				top:120px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8a{
+				position: absolute;
+				top:120px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9a{
+				position: absolute;
+				top:120px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10a{
+				position: absolute;
+				top:120px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11a{
+				position: absolute;
+				top:120px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12a{
+				position: absolute;
+				top:120px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13a{
+				position: absolute;
+				top:120px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14a{
+				position: absolute;
+				top:120px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+
+			.t1b{
+				position: absolute;
+				top: 220px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2b{
+				position: absolute;
+				top:220px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3b{
+				position: absolute;
+				top:220px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4b{
+				position: absolute;
+				top:220px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5b{
+				position: absolute;
+				top:220px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6b{
+				position: absolute;
+				top:220px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7b{
+				position: absolute;
+				top:220px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8b{
+				position: absolute;
+				top:220px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9b{
+				position: absolute;
+				top:220px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10b{
+				position: absolute;
+				top:220px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11b{
+				position: absolute;
+				top:220px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12b{
+				position: absolute;
+				top:220px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13b{
+				position: absolute;
+				top:220px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14b{
+				position: absolute;
+				top:220px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+			.t1c{
+				position: absolute;
+				top: 320px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2c{
+				position: absolute;
+				top:320px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3c{
+				position: absolute;
+				top:320px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4c{
+				position: absolute;
+				top:320px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5c{
+				position: absolute;
+				top:320px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6c{
+				position: absolute;
+				top:320px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7c{
+				position: absolute;
+				top:320px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8c{
+				position: absolute;
+				top:320px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9c{
+				position: absolute;
+				top:320px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10c{
+				position: absolute;
+				top:320px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11c{
+				position: absolute;
+				top:320px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12c{
+				position: absolute;
+				top:320px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13c{
+				position: absolute;
+				top:320px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14c{
+				position: absolute;
+				top:320px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+			.t1d{
+				position: absolute;
+				top: 420px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2d{
+				position: absolute;
+				top:420px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3d{
+				position: absolute;
+				top:420px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4d{
+				position: absolute;
+				top:420px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5d{
+				position: absolute;
+				top:420px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6d{
+				position: absolute;
+				top:420px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7d{
+				position: absolute;
+				top:420px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8d{
+				position: absolute;
+				top:420px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9d{
+				position: absolute;
+				top:420px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10d{
+				position: absolute;
+				top:420px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11d{
+				position: absolute;
+				top:420px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12d{
+				position: absolute;
+				top:420px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13d{
+				position: absolute;
+				top:420px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14d{
+				position: absolute;
+				top:420px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+			.t1e{
+				position: absolute;
+				top: 520px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2e{
+				position: absolute;
+				top:520px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3e{
+				position: absolute;
+				top:520px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4e{
+				position: absolute;
+				top:520px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5e{
+				position: absolute;
+				top:520px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6e{
+				position: absolute;
+				top:520px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7e{
+				position: absolute;
+				top:520px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8e{
+				position: absolute;
+				top:520px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9e{
+				position: absolute;
+				top:520px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10e{
+				position: absolute;
+				top:520px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11e{
+				position: absolute;
+				top:520px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12e{
+				position: absolute;
+				top:520px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13e{
+				position: absolute;
+				top:520px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14e{
+				position: absolute;
+				top:520px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+			.t1f{
+				position: absolute;
+				top: 620px;
+				width:100px;
+				height:100px;
+				background-color:#45b0f2;
+				transition: width 1s, background-color 1s;
+			}
+			
+			div:hover{
+				width: 400px;
+			}
+
+			.t2f{
+				position: absolute;
+				top:620px;
+				left: 100px;
+				width:100px;
+				height:100px;
+				background-color:#52abe6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t3f{
+				position: absolute;
+				top:620px;
+				left: 200px;
+				width:100px;
+				height:100px;
+				background-color:#60a6da;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t4f{
+				position: absolute;
+				top:620px;
+				left: 300px;
+				width:100px;
+				height:100px;
+				background-color:#6da0ce;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t5f{
+				position: absolute;
+				top:620px;
+				left: 400px;
+				width:100px;
+				height:100px;
+				background-color:#7b9bc2;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t6f{
+				position: absolute;
+				top:620px;
+				left: 500px;
+				width:100px;
+				height:100px;
+				background-color:#8896b6;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t7f{
+				position: absolute;
+				top:620px;
+				left: 600px;
+				width:100px;
+				height:100px;
+				background-color:#9691aa;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t8f{
+				position: absolute;
+				top:620px;
+				left: 700px;
+				width:100px;
+				height:100px;
+				background-color:#a38b9d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t9f{
+				position: absolute;
+				top:620px;
+				left: 800px;
+				width:100px;
+				height:100px;
+				background-color:#b18691;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t10f{
+				position: absolute;
+				top:620px;
+				left: 900px;
+				width:100px;
+				height:100px;
+				background-color:#be8185;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t11f{
+				position: absolute;
+				top:620px;
+				left: 1000px;
+				width:100px;
+				height:100px;
+				background-color:#cc7c79;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t12f{
+				position: absolute;
+				top:620px;
+				left: 1100px;
+				width:100px;
+				height:100px;
+				background-color:#d9766d;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t13f{
+				position: absolute;
+				top:620px;
+				left: 1200px;
+				width:100px;
+				height:100px;
+				background-color:#e77161;
+				transition: width 1s, background-color 1s;
+			}
+
+			div:hover{
+				width: 400px;
+			}
+
+			.t14f{
+				position: absolute;
+				top:620px;
+				left: 1300px;
+				width:100px;
+				height:100px;
+				background-color:#f46c55;
+				transition: width 1s, background-color 1s;
+			} 
+
+			div:hover{
+				width: 400px;
+				background-color:#ffb651;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<div class="t14"></div>
+			<div class="t13"></div>
+			<div class="t12"></div>
+			<div class="t11"></div>
+			<div class="t10"></div>
+			<div class="t9"></div>
+			<div class="t8"></div>
+			<div class="t7"></div>
+			<div class="t6"></div>
+			<div class="t5"></div>
+			<div class="t4"></div>
+			<div class="t3"></div>
+			<div class="t2"></div>
+			<div class="t1"></div>
+		</div>
+		<div>
+			<div class="t14a"></div>
+			<div class="t13a"></div>
+			<div class="t12a"></div>
+			<div class="t11a"></div>
+			<div class="t10a"></div>
+			<div class="t9a"></div>
+			<div class="t8a"></div>
+			<div class="t7a"></div>
+			<div class="t6a"></div>
+			<div class="t5a"></div>
+			<div class="t4a"></div>
+			<div class="t3a"></div>
+			<div class="t2a"></div>
+			<div class="t1a"></div>
+		</div>
+		<div>
+			<div class="t14b"></div>
+			<div class="t13b"></div>
+			<div class="t12b"></div>
+			<div class="t11b"></div>
+			<div class="t10b"></div>
+			<div class="t9b"></div>
+			<div class="t8b"></div>
+			<div class="t7b"></div>
+			<div class="t6b"></div>
+			<div class="t5b"></div>
+			<div class="t4b"></div>
+			<div class="t3b"></div>
+			<div class="t2b"></div>
+			<div class="t1b"></div>
+		</div>
+		<div>
+			<div class="t14c"></div>
+			<div class="t13c"></div>
+			<div class="t12c"></div>
+			<div class="t11c"></div>
+			<div class="t10c"></div>
+			<div class="t9c"></div>
+			<div class="t8c"></div>
+			<div class="t7c"></div>
+			<div class="t6c"></div>
+			<div class="t5c"></div>
+			<div class="t4c"></div>
+			<div class="t3c"></div>
+			<div class="t2c"></div>
+			<div class="t1c"></div>
+		</div>
+		<div>
+			<div class="t14d"></div>
+			<div class="t13d"></div>
+			<div class="t12d"></div>
+			<div class="t11d"></div>
+			<div class="t10d"></div>
+			<div class="t9d"></div>
+			<div class="t8d"></div>
+			<div class="t7d"></div>
+			<div class="t6d"></div>
+			<div class="t5d"></div>
+			<div class="t4d"></div>
+			<div class="t3d"></div>
+			<div class="t2d"></div>
+			<div class="t1d"></div>
+		</div>
+		<div>
+			<div class="t14e"></div>
+			<div class="t13e"></div>
+			<div class="t12e"></div>
+			<div class="t11e"></div>
+			<div class="t10e"></div>
+			<div class="t9e"></div>
+			<div class="t8e"></div>
+			<div class="t7e"></div>
+			<div class="t6e"></div>
+			<div class="t5e"></div>
+			<div class="t4e"></div>
+			<div class="t3e"></div>
+			<div class="t2e"></div>
+			<div class="t1e"></div>
+		</div>
+		<div>
+			<div class="t14f"></div>
+			<div class="t13f"></div>
+			<div class="t12f"></div>
+			<div class="t11f"></div>
+			<div class="t10f"></div>
+			<div class="t9f"></div>
+			<div class="t8f"></div>
+			<div class="t7f"></div>
+			<div class="t6f"></div>
+			<div class="t5f"></div>
+			<div class="t4f"></div>
+			<div class="t3f"></div>
+			<div class="t2f"></div>
+			<div class="t1f"></div>
+		</div>
+	</body>
+</html>
